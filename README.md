@@ -1,40 +1,33 @@
-# [SDF05] CSS Magic Buttons
+#Animated Buttons with CSS 
 
-Get ready to create animated buttons using CSS! This project focuses on creating three unique animated buttons using CSS. With this challenge, you'll dive into the world of CSS animations, transitions, and interactivity.
+This repository contains CSS code to create animated buttons with various interactive effects. These buttons are designed to enhance user experience by providing visual feedback on hover.
 
-## Learning Goals
+Features
+Button 1 (btn-1): Rotate Clockwise Vertical 3D Effect
+Button 2 (btn-2): Flip Effect at 180 degrees
+Button 3 (btn-3): Flicker Effect
+Each button has its own unique animation and color change on hover, achieved through CSS transitions and keyframe animations.
 
-By completing this project, you will learn to:
-
-- Design engaging button animations with CSS.
-- Master the use of CSS transitions and animations for interactive effects.
-
-![alt text](./images/image.png)
-
-## Project Overview
-
-### Time Estimate: 2 hours
-
-## What you Need to Do:
-
-1. **Starter Code**: Clone the starter code from GitHub for your project. The HTML structure is provided, and you'll focus on adding styles in the `style.css` file.
-
-    - Starter code can be found here: https://github.com/CodeSpace-Academy/Module_5R_StudentNo_Classcode_Group_Name-Surname_SDF05R
-
-2. **Write your CSS Styles**: Create your animations from scratch. Need a hint of inspiration? You're welcome to go through our curated buttons for inspiration: [View Reference](https://codepen.io/codespace-academy/pen/xxmWrjX). 
-
-3. **Prepare Your Repository**: 
-    - Save all chanes and update your GitHub repository with the final versions of all files.
-    - Include a `README.md` file that outlines the project, your design choices, and any notes on challenges you faced or features you're particularly proud of.
-    - Ensure your repository is set to public so it can be accessed by your code coach.
-
-4. **Submit on LMS**:
-    - Submit the link to your GitHub repository on the LMS under the project tab.
-
-Embark on this CSS journey to transform simple buttons into interactive, animated elements. Let your creativity shine and enjoy the process of bringing static elements to life!
+Technologies Used as starter code provided
+HTML
+CSS 
 
 
-## Submission Guidelines
-- Submit the link to your GitHub repository on the LMS under the project tab.
+Cloned the Repository:
+Copied code
+Include the CSS:
+Copy the contents of styles.css into the project's existing CSS file o
 
-Embark on this CSS journey to transform simple buttons into interactive, animated elements. Let your creativity shine and enjoy the process of bringing static elements to life!
+updated Buttons to HTML:
+Insert buttons with appropriate classes (btn-1, btn-2, btn-3) and renamed
+
+html
+Copy code
+<button class="custom-btn btn-1">Button 1</button>
+<button class="custom-btn btn-2">Button 2</button>
+<button class="custom-btn btn-3">Button 3</button>
+
+Customization
+Adjust colors by modifying background and color properties in .custom-btn.btn-X.
+Modify animation timings (transition, @keyframes) in styles.css for different visual effects.
+ modify heading and paragraph in the HTML FILE

@@ -49,6 +49,44 @@ p {
         7px 7px 20px 0px rgba(0, 0, 0, .1),
         4px 4px 5px 0px rgba(0, 0, 0, .1);
     outline: none;
+    text-decoration: none; /* Remove underline by default */
 }
 
-/* Add your custom styles for btn-1, btn-2, and btn-3 */
+/* Button 1 animation (rotate clockwise vertical 3D) */
+.custom-btn.btn-1 {
+    background: #4CAF50; /* Green */
+    transform-style: preserve-3d; /* Maintain 3D transformations */
+}
+
+.custom-btn.btn-1:hover {
+    transform: rotateX(360deg); /* Rotate 360 degrees around the X-axis */
+    color: #fff; /* Change text color on hover */
+}
+
+/* Button 2 animation (flip) */
+.custom-btn.btn-2 {
+    background: #2196F3; /* Blue */
+}
+
+.custom-btn.btn-2:hover {
+    transform: rotateY(180deg); /* Rotate 180 degrees around the Y-axis */
+    color: #fff; /* Change text color on hover */
+}
+
+/* Button 3 animation (flick) */
+.custom-btn.btn-3 {
+    background: #FF9800; /* Orange */
+}
+
+.custom-btn.btn-3:hover {
+    animation: flicker 0.3s ease;
+    color: #fff; /* Change text color on hover */
+}
+
+@keyframes flicker { 0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.3);
+    }
+}
